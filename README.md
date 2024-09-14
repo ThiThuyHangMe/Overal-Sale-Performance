@@ -58,6 +58,6 @@ In conclusion, the June 2022 FlashSale Dashboard offers critical insights to eva
             WHEN fs_rebate = 0 THEN 'Non Rebate'
             ELSE 'Low Rebate'
          END AS discount_level
-4. **SQL Query to Select Sellers Excluding CB Shop and Mall Shop**
+4. **SQL Query to filter Sellers Excluding CB Shop and Mall Shop**
   ```sql
    WHERE is_cb_shop = 0 and is_mall_shop = 0
