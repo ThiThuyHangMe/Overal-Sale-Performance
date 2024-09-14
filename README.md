@@ -62,3 +62,43 @@ In conclusion, the June 2022 FlashSale Dashboard offers critical insights to eva
 * **SQL Query to filter Sellers Excluding CB Shop and Mall Shop**
   ```sql
    WHERE is_cb_shop = 0 and is_mall_shop = 0
+
+# Flashsale Data Presentation - Shopee Vietnam
+
+## Step 3: Data Presenting
+
+The data presentation was thoughtfully designed with a combination of **charts** and **tables**, offering a wealth of valuable information to assess the Flashsale performance comprehensively.
+
+### Data Insights Overview:
+
+- **Average Indices**:  
+  The initial line provided average indices (orders, GMV, ADO, total items sold) during the Flashsale from **June 1st to June 23rd, 2022**, giving a broad snapshot of overall performance.
+
+- **Daily Trends**:  
+  The subsequent two charts depicted **daily trends** for the following key metrics:
+  - **Number of Orders**
+  - **Stock Sold**
+  - **Total GMV**
+
+  These daily insights offer a detailed view of the Flashsale’s day-to-day performance, helping decision-makers spot trends and opportunities.
+
+- **Market Share Across Categories**:  
+  A pair of **pie charts** illustrated the market share across various product categories, providing a clear understanding of the **distribution** of products sold during the Flashsale.
+
+### Detailed Breakdown of Performance:
+
+- **Top 5 Subcategories by Stock Sold**:  
+  The presentation continued with a **table** highlighting the **top 5 subcategories by stock sold** during June's Flashsale, giving valuable insights into consumer preferences and high-demand products.
+
+- **Top 5 Best-Selling Items**:  
+  The dashboard also included **three tables** that highlighted the **top 5 best-selling items** in the following categories:
+  1. **Best-Seller**: Items that had the highest number of units sold.
+  2. **Highest GMV**: Items generating the highest gross merchandise value.
+  3. **Highest Stock Sold**: Items that had the largest volume of stock sold during the Flashsale.
+
+These tables were instrumental in identifying the standout items in each category, helping understand product performance and consumer behavior.
+
+### Conclusion:
+
+The dynamic nature of this **dashboard** provided viewers with a highly **informative** and **interactive experience**, allowing for a deeper understanding of the Flashsale’s performance. This comprehensive approach enables stakeholders to make **informed decisions** based on the key insights provided.
+
