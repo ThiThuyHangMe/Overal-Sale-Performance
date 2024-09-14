@@ -43,3 +43,22 @@ In conclusion, the June 2022 FlashSale Dashboard offers critical insights to eva
        WHEN item_name NOT LIKE '%]%' THEN item_name 
        WHEN item_name LIKE '%]%' THEN SUBSTRING(item_name, CHARINDEX(']', item_name) + 2, LEN(CONVERT(nvarchar(max), item_name))) 
    END AS item_name
+2. **SQL Query for discount price label**:
+       ```sql
+   , CONCAT(CAST((fs_price / price_before_discount) * 100 AS DECIMAL(5, 2)), '%') AS discount_rate
+    ,       CASE 
+                WHEN (CAST((fs_price / price_before_discount) * 100 AS DECIMAL(5, 2))) > 70 THEN 'High Discount'
+                WHEN (CAST((fs_price / price_before_discount) * 100 AS DECIMAL(5, 2))) <10 THEN 'Low Discount'
+                ELSE 'Normal Discount'
+            END AS discount_level
+3. **SQL Query for rebate label**
+  ```sql
+        , CASE 
+            WHEN fs_rebate > 500000 THEN 'High Rebate'
+            WHEN fs_rebate = 0 THEN 'Non Rebate'
+            ELSE 'Low Rebate'
+         END AS discount_level
+
+4. **SQL Query to Select Sellers Excluding CB Shop and Mall Shop**
+  ```sql
+   WHERE is_cb_shop = 0 and is_mall_shop = 0
