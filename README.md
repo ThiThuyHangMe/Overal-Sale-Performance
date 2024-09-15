@@ -1,4 +1,4 @@
-# Flashsale Executive Summary - Shopee Vietnam
+# Flashsale Executive Summary - Shopee
 *Data has been anonymized and modified to comply with the company's data protection policies. These amendments ensure that no confidential or personally identifiable data is exposed*
 
 ***Tableau Dashboard***: [HERE](https://public.tableau.com/app/profile/hang.me6579/viz/Shopee-FSEXECUTIVESUMMARY/Dashboard1?publish=yes)
